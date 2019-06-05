@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="map_width">320dp</dimen>
+    <dimen name="map_height">400dp</dimen>
+    <dimen name="short_side">80dp</dimen>
+    <dimen name="long_side">160dp</dimen>
+    <dimen name="rank_width">30dp</dimen>
+    <dimen name="rank_1_rank_size">40sp</dimen>
+    <dimen name="rank_1_text_size">30sp</dimen>
+    <dimen name="rank_1_star_width">40dp</dimen>
+    <dimen name="rank_2_rank_size">30sp</dimen>
+    <dimen name="rank_2_text_size">25sp</dimen>
+    <dimen name="rank_2_star_width">30dp</dimen>
+    <dimen name="rank_3_rank_size">25sp</dimen>
+    <dimen name="rank_3_text_size">20sp</dimen>
+    <dimen name="rank_3_star_width">25dp</dimen>
+    <dimen name="rank_4_rank_size">20sp</dimen>
+    <dimen name="rank_4_text_size">15sp</dimen>
+    <dimen name="rank_4_star_width">20dp</dimen>
+</resources>
