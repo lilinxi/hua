@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">login</string>
+    <string name="app_name">曹操必须死</string>
     <string name="input_name_hint">请输入用户名</string>
     <string name="input_password_hint">请输入密码</string>
     <string name="button_register_label">注册</string>
