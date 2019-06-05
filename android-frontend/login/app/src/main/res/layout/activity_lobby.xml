@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".LobbyActivity">
+
+    <include layout="@layout/topbar" />
+
+    <Button
+        android:id="@+id/button_quick_start"
+        android:text="@string/button_quick_start_label"
+        style="@style/common_button_style"
+        android:layout_marginTop="250dp"
+        android:onClick="quickBegin"/>
+
+    <Button
+        android:id="@+id/button_choose_level"
+        android:text="@string/button_choose_level_label"
+        style="@style/common_button_style"
+        android:onClick="gotoChooseLevel"/>
+
+    <Button
+        android:id="@+id/button_self_achievement"
+        android:text="@string/button_self_achievement_label"
+        style="@style/common_button_style"
+        android:onClick="gotoSelfAchievement"/>
+
+    <Button
+        android:id="@+id/button_system_top"
+        android:text="@string/button_system_top_label"
+        style="@style/common_button_style"
+        android:onClick="gotoSystemTop"/>
+
+</LinearLayout>

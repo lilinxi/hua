@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mortal.hua.dao.UserLevelMapDao">
+    <insert id="insertOrUpdate" parameterType="userLevelMap" useGeneratedKeys="true">
+        insert into user_level_map (user_id,level_map_id,time_ms,step_count,score,star) values (#{userId},#{levelMapId},#{timeMs},#{stepCount},#{score},#{star}) ON DUPLICATE KEY UPDATE time_ms=#{timeMs},step_count=#{stepCount},score=#{score}
+    </insert>
+    
+    <select id="selectInfoByUserNameAndLevelMapName" resultType="userLevelMap">
+        select id,user_name,level_map_name,time_ms,step_count,score,star  from user_level_map_info where user_name=#{userName} and  level_map_name=#{levelMapName}
+    </select>
+
+    <select id="selectInfoByUserName" parameterType="string" resultType="userLevelMap">
+        select id,user_name,level_map_name,time_ms,step_count,score,star from user_level_map_info where user_name=#{userName}
+    </select>
+
+</mapper>

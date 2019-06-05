@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mortal.hua.dao.LevelMapDao">
+    <select id="selectInfoByName" parameterType="string" resultType="levelMap">
+        select id,name,map_string,map_xy_string,top_user_name,top_user_score from level_map_info where name=#{name}
+    </select>
+
+    <select id="selectIdByName" parameterType="string" resultType="int">
+        select id from level_map where name=#{name}
+    </select>
+
+    <update id="updateTopIdByName">
+        update level_map set top_id=#{topId} where name=#{name}
+    </update>
+</mapper>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="input_name_hint">请输入用户名</string>
+    <string name="input_password_hint">请输入密码</string>
+    <string name="button_register_label">注册</string>
+    <string name="button_login_label">登陆</string>
+
+    <string name="userServerAddress">http://39.106.179.8:8081</string>
+    <string name="userServer_login">/user/login</string>
+    <string name="userServer_getUserInfo">/user/getUserInfo</string>
+    <string name="userServer_register">/user/register</string>
+    <string name="userServer_getTopStars">/user/getTopStars</string>
+    <string name="userServer_getTopScores">/user/getTopScores</string>
+    <string name="levelMapServer_getLevelMap">/levelMap/getLevelMap</string>
+    <string name="levelMapServer_updateTopId">/levelMap/updateTopId</string>
+    <string name="userLevelMapServer_addOrUpdateUserRecord">/userLevelMap/addOrUpdateUserRecord</string>
+    <string name="userLevelMapServer_getUserRecordsByUserName">/userLevelMap/getUserRecordsByUserName</string>
+    <string name="userLevelMapServer_getUserRecordByUserNameAndLevelMapName">/userLevelMap/getUserRecordByUserNameAndLevelMapName</string>
+
+    <string name="ResponseResultSuccess">success</string>
+    <string name="ResponseResultMessage">msg</string>
+    <string name="ResponseResultData">data</string>
+    <string name="register_success_msg">注册成功，请登录</string>
+    <string name="name_or_password_is_null_msg">用户名或密码为空</string>
+    <string name="user_name">name</string>
+    <string name="user_password">password</string>
+    <string name="button_quick_start_label">快速开始</string>
+    <string name="button_choose_level_label">选择关卡</string>
+    <string name="button_self_achievement_label">个人成就</string>
+    <string name="button_system_top_label">系统排行</string>
+    <string name="level_name">name</string>
+    <string name="level_mapString">mapString</string>
+    <string name="level_mapXYString">mapXYString</string>
+    <string name="map_name">name</string>
+    <string name="user_level_map_stepCount">stepCount</string>
+    <string name="user_level_map_timeMs">timeMs</string>
+    <string name="user_level_map_levelMapName">levelMapName</string>
+    <string name="user_level_map_userName">userName</string>
+    <string name="self_star_beginText">星星：</string>
+    <string name="self_score_beginText">总分：</string>
+    <string name="achievement_level_score_beginText">已通关：</string>
+    <string name="achievement_level_score_endText">分</string>
+    <string name="self_score_endText">pts</string>
+
+    <string-array name="level_map_name">
+        <item>横刀立马</item>
+        <item>指挥若定</item>
+        <item>将拥曹营</item>
+        <item>齐头并进</item>
+        <item>兵分三路</item>
+        <item>雨声淅沥</item>
+        <item>左右步兵</item>
+        <item>桃花园中</item>
+        <item>一路进军</item>
+        <item>一路顺风</item>
+    </string-array>
+
+    <array name="level_map_imageId">
+        <item>@drawable/hengdaolima</item>
+        <item>@drawable/zhihuiruoding</item>
+        <item>@drawable/jiangyongcaoying</item>
+        <item>@drawable/qitoubingjin</item>
+        <item>@drawable/bingfensanlu</item>
+        <item>@drawable/yushengxili</item>
+        <item>@drawable/zuoyoububing</item>
+        <item>@drawable/taohuayuanzhong</item>
+        <item>@drawable/yilujinjun</item>
+        <item>@drawable/yilushunfeng</item>
+    </array>
+
+    <array name="new_record_stars">
+        <item>@id/new_record_star1</item>
+        <item>@id/new_record_star2</item>
+        <item>@id/new_record_star3</item>
+    </array>
+</resources>
